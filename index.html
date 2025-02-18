@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Note App</title>
+</head>
+<body>
+    <!-- <div>
+        <h1 class="title">Title : </h1>
+        <label for="content"></label>
+        <input type="text" name="content" id="content">
+        <label for="category">Select Category</label>
+        <select name="category" id="category">
+            <option value="/">Select One</option>
+            <option value="Work">Work</option>
+            <option value="Personal">Personal</option>
+            <option value="Misc">Misc</option>
+        </select>
+    </div> -->
+    <div class="container">
+        <h1>Note App</h1>
+        <div class="note-form">
+            <input type="text" id="note" placeholder="title" required>
+            <textarea name="note-content" id="" placeholder="content"></textarea>
+            <select name="" id="" class="note-category">
+                <option value="Work">Work</option>
+                <option value="Personal">Personal</option>
+                <option value="Misc">Misc</option>
+            </select>
+            <button onclick="addNote()">Add Note</button>
+        </div>
+        <div class="controls">
+            <button>All</button>
+            <button>Work</button>
+            <button>Personal</button>
+            <button>Misc</button>
+            <button>Sort A-Z</button>
+            <button>Sort by Date</button></div>
+    </div>
+    <div class="notes-container"></div>
+    <h2>Trash</h2>
+    <div id="trash-container"></div>
+</body>
+<script src="./script.js"></script>
+</html>

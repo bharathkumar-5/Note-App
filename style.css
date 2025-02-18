@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: rgba(237, 38, 38, 0.35) 0px 5px 15px;
+    margin-top: 20px;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+.note-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.note-form input, .note-form textarea, .note-form select, .note-form button {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.controls button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    background: #e349fb;
+    color: rgb(238, 238, 238);
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.controls button:hover {
+    background: #2166af;
+    color: red;
+}
+
+.notes-container, #trash-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 50px;
+    justify-content: center;
+}
+
+.note {
+    background: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    text-align: left;
+    position: relative;
+}
+
+.note h3 {
+    margin: 0;
+    font-size: 18px;
+    color: #007BFF;
+}
+
+.note p {
+    font-size: 14px;
+}
+
+.note button {
+    margin-top: 10px;
+    padding: 5px;
+    border: none;
+    background: #FF3B3B;
+    color: white;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.note button:hover {
+    background: #c30000;
+}
